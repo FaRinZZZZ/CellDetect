@@ -76,6 +76,18 @@ The script processes images in the following steps:
 3. **Contour Detection and Filtering**: Finds contours in the masked image and filters them based on area to detect cells.
 4. **Combined Display**: Shows the original, mask, and contour-drawn images in a single window, updating in real-time.
 
+## Detection Summary
+
+Based on the provided settings and example screenshot, the following detection results were observed:
+
+- **Total Detected Cells**: **130**
+- **HSV Threshold Settings**:
+  - **Lower HSV Bound**: `[0, 0, 0]`
+  - **Upper HSV Bound**: `[0, 0, 80]`
+- **Contour Area Threshold**: `0`
+
+These settings focus on isolating low-saturation, low-brightness regions, which represent cell-like structures. The contour area threshold of 0 includes all detected contours, making it suitable for detecting smaller structures.
+
 ## Future Improvements
 
 - Add automatic thresholding for initial HSV range and contour area based on image properties.
