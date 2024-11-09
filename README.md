@@ -47,7 +47,7 @@ pip install opencv-python numpy
    - **Middle Panel**: The binary mask that highlights potential cell regions based on the current HSV filter settings.
    - **Right Panel**: The detected cells overlaid with red contours on the original image, showing the identified cells that match the contour area threshold.
 
-   ![Screenshot](asset/screenshow/Frame.png)
+   ![Screenshot](asset/screenshot/Frame.png)
 
    This setup allows you to visually assess the effectiveness of your HSV range and contour area settings in isolating and detecting cells.
 
@@ -63,7 +63,7 @@ The following screenshot provides a visual of the application interface:
   - The **binary mask** highlighting cell-like regions based on the HSV filter (middle panel).
   - The **detected cells** with red contour overlays on the original image (right panel).
 
-![Example Interface](asset/screenshow/Control.png)
+![Example Interface](asset/screenshot/Control.png)
 
 This layout enables you to fine-tune the detection parameters visually, ensuring accurate cell detection.
 
