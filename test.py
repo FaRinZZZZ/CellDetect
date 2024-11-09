@@ -2,9 +2,9 @@ import numpy as np
 import cv2
 
 # Load and convert image to grayscale
-bmp = cv2.imread('pic/bloodcell.bmp', cv2.IMREAD_GRAYSCALE)
-cv2.imwrite('pic/BloodGray.png', bmp)
-img = cv2.imread('pic/BloodGray.png')
+bmp = cv2.imread('asset/pic/bloodcell.bmp', cv2.IMREAD_GRAYSCALE)
+cv2.imwrite('asset/pic/BloodGray.png', bmp)
+img = cv2.imread('asset/pic/BloodGray.png')
 hsv_img = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 # Create a named window for trackbars
